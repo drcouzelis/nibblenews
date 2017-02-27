@@ -1,0 +1,45 @@
+Vocabulary
+----------
+Feed - RSS or ATOM
+Item - One "update" from a feed
+Location - Path to a feed, usually a URL
+
+Private Haiku Files
+-------------------
+ColorTools.h
+ColumnListView.cpp
+ColumnListView.h
+ObjectListPrivate.h
+
+Main Window
+-----------
+MenuBar
+List of feed tags, including "All" and "Unread" (PopUpMenu / PopUpField)
+Item List (ColumnListView)
+  New
+  Icon
+  Name
+  Date
+  Feed
+  Right-click Menu
+    Open
+    Mark as Read / Unread
+Status Bar
+
+Feeds Window
+------------
+List of feeds
+Add Feed button -> Edit Feed Window
+Remove Feed button (Confirmation dialog)
+Edit Feed button -> Edit Feed Window
+Close button -> Close the window
+
+Edit Feed Window
+----------------
+Location (TextControl)
+Rename (CheckBox)
+Name (TextControl)
+
+Preferences Window
+------------------
+Location (TextControl)
